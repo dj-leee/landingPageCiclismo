@@ -1,5 +1,3 @@
-# landingPageCiclismo
-
 # Landing Page Ciclismo
 
 ## Descripción del Proyecto

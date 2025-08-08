@@ -56,8 +56,35 @@
     <!-- Security Headers -->
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https:; script-src 'self';">
     <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Superman no sabe nadar</h1>
+    <header>
+        <img src="img/sillin.avif" alt="">
+
+    </header>
+    <main>
+        <h3></h3>
+        <article class="centroFormulario">
+            <p class="explicacion">Si cada ruta se siente como una batalla contra el dolor, sabes que es hora de un cambio. Hemos creado [Nombre del Sillín] para que recuperes el placer de pedalear, diseñado con una tecnología que elimina la presión y te da la comodidad que siempre has buscado. Y como creemos que mereces probarlo sin dudar, por ser nuestro lanzamiento, te ofrecemos una oportunidad única para conseguirlo. Esta oferta no durará para siempre, ¡así que no esperes a que se te escape!</p>
+            <form class="banner" action="confirmacion.html" method="get">
+                <input 
+                class="inputNewsletter"
+                type="email" 
+                name="correo" 
+                id="correo"
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                placeholder="Email para participar"
+                required>
+                
+                <button type="submit">Enviar</button>
+                <p class="pieInput">¡Deja de sufrir ya! Recibe un descuento express en tu email y consigue el sillín que cambiará tus rutas para siempre.</p>
+            </form>
+        </article>
+    </main>
+    <footer>
+        <h6 class="textoLegal"> &copy;DJ todos los derechos reservados</h6>
+    </footer>
 </body>
 </html>
